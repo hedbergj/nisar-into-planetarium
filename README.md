@@ -13,14 +13,11 @@ Make a single band geotiff from that:
 
 And the same for HV component
 
-Then I used python to make a new tiff that had the red channel as HH, the green channel as HV, and the blue as HH/HV. Saved that as an rgb tiff with data type 8 Byte: 
+Then I used python to make a new tiff that had the red channel as HH, the green channel as HV, and the blue as HH/HV. This is where you would have the option to change the scaling of the different color ranges depending on how you want it. Saved that as an rgb tiff with data type 8 Byte: 
 
 ```gdalinfo nisar-rgb.uint8.tif```
 
 ```
-
-(This is where you would have the option to change the scaling of the different color ranges depending on how you want it)
-
 ...
 Band 1 Block=17394x1 Type=Byte, ColorInterp=Red
   NoData Value=0
