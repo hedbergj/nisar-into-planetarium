@@ -1,8 +1,8 @@
 # nisar-into-planetarium
-Quick steps to bring NISAR data into the planetarium software
 
+Quick steps to bring [NISAR](https://science.nasa.gov/mission/nisar/) data into the planetarium software
 
-starting with h5 GCOV file which was downloaded from here:
+Starting with h5 GCOV file which was downloaded from here:
 
 [asf.alaska.edu](https://search.asf.alaska.edu/#/?dataset=NISAR&prodConfig=PR&resultsLoaded=true&granule=NISAR_L2_PR_GCOV_006_172_A_008_2005_DHDH_A_20251204T024618_20251204T024653_X05007_N_F_J_001&zoom=7.673&center=41.485,10.631)
 
