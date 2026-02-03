@@ -3,6 +3,11 @@ Quick steps to bring NISAR data into the planetarium software
 
 
 starting with h5 GCOV file which was downloaded from here:
+
+[asf.alaska.edu](https://search.asf.alaska.edu/#/?dataset=NISAR&prodConfig=PR&resultsLoaded=true&granule=NISAR_L2_PR_GCOV_006_172_A_008_2005_DHDH_A_20251204T024618_20251204T024653_X05007_N_F_J_001&zoom=7.673&center=41.485,10.631)
+
+or 
+
 [earthdata.nasa.gov](https://search.earthdata.nasa.gov/search/granules?p=C3622214170-ASF&pg[0][v]=f&pg[0][gsk]=-start_date&q=nisar&lat=12.598643340155649&long=42.916701638649215&zoom=7.065471754872718)
 
 
@@ -28,7 +33,7 @@ Replace:
 
 in the above gdal. 
 
-Then I used python to make a new tiff that had the red channel as HH, the green channel as HV, and the blue as HH/HV. This is where you would have the option to change the scaling of the different color ranges depending on how you want it. Saved that as an rgb tiff with data type 8 Byte: 
+Then I used python to make a new tiff that had the red channel as HH, the green channel as HV, and the blue as HH/HV. This is where you would have the option to change the scaling of the different color ranges depending on how you want it. I didn't make any informed decisions about the color scaling for these images. Saved that as an rgb tiff with data type 8 Byte: 
 
 ```gdalinfo nisar-rgb.uint8.tif```
 
