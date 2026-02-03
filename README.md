@@ -2,7 +2,11 @@
 Quick steps to bring NISAR data into the planetarium software
 
 
-starting with h5 GCOV file:
+starting with h5 GCOV file which was downloaded from here:
+[earthdata.nasa.gov](https://search.earthdata.nasa.gov/search/granules?p=C3622214170-ASF&pg[0][v]=f&pg[0][gsk]=-start_date&q=nisar&lat=12.598643340155649&long=42.916701638649215&zoom=7.065471754872718)
+
+
+
 pull out HHHH sub group:
 
 ```gdal_translate -of NetCDF  NETCDF:"NISAR_L2_PR_GCOV_006_172_A_008_2005_DHDH_A_20251204T024618_20251204T024653_X05007_N_F_J_001.h5"://science/LSAR/GCOV/grids/frequencyA/HHHH hh.h5```
