@@ -1,0 +1,53 @@
+<VRTDataset rasterXSize="1973484" rasterYSize="986742">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.8000000000000000e+02,  1.8241852166521233e-04,  0.0000000000000000e+00,  9.0000000000000000e+01,  0.0000000000000000e+00, -1.8241852166521233e-04</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">nisar-rgb.uint8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17394" RasterYSize="16705" DataType="Byte" BlockXSize="17394" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="17394" ySize="16705" />
+      <DstRect xOff="1205764.70423865" yOff="414623.053209239" xSize="17394" ySize="16705" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">nisar-rgb.uint8.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="17394" RasterYSize="16705" DataType="Byte" BlockXSize="17394" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="17394" ySize="16705" />
+      <DstRect xOff="1205764.70423865" yOff="414623.053209239" xSize="17394" ySize="16705" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <NoDataValue>0</NoDataValue>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">nisar-rgb.uint8.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="17394" RasterYSize="16705" DataType="Byte" BlockXSize="17394" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="17394" ySize="16705" />
+      <DstRect xOff="1205764.70423865" yOff="414623.053209239" xSize="17394" ySize="16705" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <ColorInterp>Alpha</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">nisar-rgb.uint8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="17394" RasterYSize="16705" DataType="Byte" BlockXSize="17394" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="17394" ySize="16705" />
+      <DstRect xOff="1205764.70423865" yOff="414623.053209239" xSize="17394" ySize="16705" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
