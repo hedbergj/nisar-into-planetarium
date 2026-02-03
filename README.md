@@ -57,7 +57,7 @@ Then make a vrt using the following
 ```<NODATA>0</NODATA>```
 
 into the `<ComplexSource>` tag for the alpha band.)
-Then I can load that vrt directly into the OpenSpace application. 
+Then I can load that vrt directly into the [OpenSpace](https://www.openspaceproject.com) application. 
 
 ![NISAR sample import](img/nisar-patch-1.png)
 
