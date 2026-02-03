@@ -15,7 +15,18 @@ Make a single band geotiff from that:
 
 ```gdalwarp -of GTiff -t_srs EPSG:4326 NETCDF:hh.h5 nisar-hh.tiff```
 
-And the same for HV component
+This could be shown in grayscale:
+
+![NISAR sample import single](img/nisar-single-gray.png)
+
+
+To show more normal polarimetry data: we would do the same for HV component:
+
+Replace:
+
+```//science/LSAR/GCOV/grids/frequencyA/HVHV```
+
+in the above gdal. 
 
 Then I used python to make a new tiff that had the red channel as HH, the green channel as HV, and the blue as HH/HV. This is where you would have the option to change the scaling of the different color ranges depending on how you want it. Saved that as an rgb tiff with data type 8 Byte: 
 
